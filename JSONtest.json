@@ -1,0 +1,55 @@
+{	"id":"ad533f81-8343-497e-8d1a-0c0ae4bc83b0",
+	"alder":"1 - 5",
+	"ansatte":
+		{	"antallFra":0,
+			"antallTil":0
+		},
+	
+	"eierform":"Kommunal",
+	"erAktiv":true,
+	"erBarnehage":true,
+	"erBarnehageEier":false,
+	"erPrivatBarnehage":false,
+	"fylke":
+		{	"fylkesnavn":"Nordland",
+			"fylkesnummer":"18"
+		},
+	"kommune":
+		{	"kommunenavn":"Vevelstad"
+			,"kommunenummer":"1816"
+		},
+
+	"kontaktinformasjon":
+		{	"postAdresse":null,
+			"besoksAdresse":
+			{	"adresselinje":"",
+				"postnr":"8870",
+				"poststed":"VISTHUS"
+			},
+				
+			"epost":"synnove.aakervik@vevelstad.kommune.no",
+			"url":"",
+			"telefon":""
+		},
+				
+
+	"koordinatLatLng":[0.0,0.0],
+
+	"malform":
+		{	"malformType":"B",
+			"malformNavn":"Bokmål"	},
+
+	"navn":"Stokka/visthus barnehage",
+	"orgnr":"975312429",
+	"nsrId":"1013655",
+
+	"indikatorDataBarnehage":{"antallBarn":3,"antallBarnPerAnsatt":1.6,"andelAnsatteMedBarneOgUngdomsarbeiderfag":0.0,"andelAnsatteBarnehagelarer":0.0,"andelAnsatteMedAnnenHoyereUtdanning":0.0,"andelAnsatteMedAnnenFagarbeiderutdanning":51.7,"andelAnsatteMedAnnenBakgrunn":48.3,"andelAnsatteMedAnnenPedagogiskUtdanning":0.0,"lekeOgOppholdsarealPerBarn":6.7,"andelBarnehagerSomOppfyllerPedagognormen":null,"andelBarnehagerSomIkkeOppfyllerPedagognormen":null,"andelBarnehagerSomOppfyllerPedagognormenMedDispensasjon":null,"foreldreundersokelsenUteOgInneMiljo":null,"foreldreundersokelsenBarnetsUtvikling":null,"foreldreundersokelsenBarnetsTrivsel":null,"foreldreundersokelsenInformasjon":null,"foreldreundersokelsenTilfredshet":null,"foreldreundersokelsenAntallInviterte":null,"foreldreundersokelsenAntallBesvarte":null,"foreldreundersokelsenSvarprosent":null,"foreldreundersokelsenArgang":null},
+	"indikatorDataKommune":{"antallBarn":24,"antallBarnPerAnsatt":4.3,"andelAnsatteMedBarneOgUngdomsarbeiderfag":27.9,"andelAnsatteBarnehagelarer":14.0,"andelAnsatteMedAnnenHoyereUtdanning":0.0,"andelAnsatteMedAnnenFagarbeiderutdanning":8.4,"andelAnsatteMedAnnenBakgrunn":49.7,"andelAnsatteMedAnnenPedagogiskUtdanning":0.0,"lekeOgOppholdsarealPerBarn":6.8,"andelBarnehagerSomOppfyllerPedagognormen":0.0,"andelBarnehagerSomIkkeOppfyllerPedagognormen":100.0,"andelBarnehagerSomOppfyllerPedagognormenMedDispensasjon":0.0,"foreldreundersokelsenUteOgInneMiljo":null,"foreldreundersokelsenBarnetsUtvikling":null,"foreldreundersokelsenBarnetsTrivsel":null,"foreldreundersokelsenInformasjon":null,"foreldreundersokelsenTilfredshet":null,"foreldreundersokelsenAntallInviterte":null,"foreldreundersokelsenAntallBesvarte":null,"foreldreundersokelsenSvarprosent":null,"foreldreundersokelsenArgang":null},
+	"kostpenger":0.0,
+	"type":"Ordinær barnehage",
+	"pedagogiskProfil":null,
+	"apningstidFra":"08:15",
+	"apningstidTil":"15:00",
+	"oppfyllerPedagognorm":"Oppfyller ikke pedagognormen",
+	"totalAntallKvadratmeter":20.0,
+	"urlTilSoknadOmBarnehageplass":"http://www.vevelstad.kommune.no"}

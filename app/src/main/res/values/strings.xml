@@ -1,0 +1,32 @@
+<resources>
+    <!-- MainActivity -->
+    <string name="app_name">BarnehageGuiden</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_logo_description">Application Logo or welcome Image</string>
+    <string name="fylke_string">Fylke</string>
+    <string name="kommune_string">Kommune</string>
+    <string name="vis_kommuner_string">Vis Kommune</string>
+    <string name="vis_i_narheten">Vis i nærheten</string>
+    <string name="title_activity_settings">Settings</string>
+
+
+    <!-- Preferences -->
+    <string name="lagre_kommune">Lagre gjeldende kommune</string>
+    <string name="barnets_alder">Barnets alder</string>
+    <string name="moderasjon">Søskenmoderasjon</string>
+    <string name="vis_alle">Vis alle</string>
+    <string name="trenger_moderasjon">Kun bhg med søskenmoderasjon</string>
+
+    <!-- Kommunefragment -->
+    <string name="her_kommer_kommunenavn">Her kommer Kommunenavn</string>
+    <string name="antall_i_barnehage">Antall barn i barnehage: </string>
+    <string name="barn_pr_ansatt">Antall barn pr ansatt: </string>
+    <string name="andel_utdanning">Andel faglærte ansatte: </string>
+    <string name="lekeareal_pr_barn">Lekeareal pr barn (m2?):</string>
+    <string name="fyller_pedagognorm">Pedagognorm oppfylt, %:</string>
+    <string name="vis_barnehager">Vis barnehager</string>
+    <string name="registrer_alder">Legg inn alder</string>
+    <string name="title_activity_barnehage_liste">BarnehageListe</string>
+    <string name="placeholder">Placeholder</string>
+    <string name="title_activity_barnehage_info">BarnehageInfoActivity</string>
+</resources>

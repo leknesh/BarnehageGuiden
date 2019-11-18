@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_gravity="center"
+    android:background="#69F0AE"
+    tools:context=".KommuneFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="16dp">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/fragment_kommune"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="16dp"
+            android:text="@string/her_kommer_kommunenavn"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/barn_bhg_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_kommune"
+            android:padding="8dp"
+            android:text="@string/antall_i_barnehage" />
+
+        <TextView
+            android:id="@+id/barn_bhg_antall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_kommune"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:padding="8dp"
+            android:text="placeholder" />
+
+        <TextView
+            android:id="@+id/barn_ansatt_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/barn_bhg_info"
+            android:padding="8dp"
+            android:text="@string/barn_pr_ansatt" />
+
+        <TextView
+            android:id="@+id/barn_ansatt_antall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/barn_bhg_info"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:padding="8dp"
+            android:text="placeholder" />
+
+        <TextView
+            android:id="@+id/andel_utdannet_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/barn_ansatt_info"
+            android:padding="8dp"
+            android:text="@string/andel_utdanning" />
+
+        <TextView
+            android:id="@+id/andel_utdannet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/barn_ansatt_info"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:padding="8dp"
+            android:text="placeholder" />
+
+        <TextView
+            android:id="@+id/lekeareal_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/andel_utdannet_info"
+            android:padding="8dp"
+            android:text="@string/lekeareal_pr_barn" />
+
+        <TextView
+            android:id="@+id/lekeareal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/andel_utdannet_info"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:padding="8dp"
+            android:text="placeholder" />
+
+        <TextView
+            android:id="@+id/andel_pedagognorm_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lekeareal_info"
+            android:padding="8dp"
+            android:text="@string/fyller_pedagognorm" />
+
+        <TextView
+            android:id="@+id/andel_pedagognorm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lekeareal_info"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:padding="8dp"
+            android:text="placeholder" />
+
+        <Button
+            android:id="@+id/vis_bhg_knapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/andel_pedagognorm_info"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="@string/vis_barnehager" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_gravity="center_vertical"
+    android:layout_margin="16dp"
+    tools:context=".BarnehageDetaljActivity">
+
+        <ImageView
+            android:id="@+id/bhg_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_logo_description"
+            android:src="@drawable/barnehage2" />
+
+        <TextView
+            android:id="@+id/barnehage_navn_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bhg_img"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="BarnehageNavn"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textSize="36sp" />
+
+
+        <TextView
+            android:id="@+id/bhg_gateadresse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/barnehage_navn_view"
+            android:padding="16dp"
+            android:text="Gate"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/bhg_postnummer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bhg_gateadresse"
+            android:padding="16dp"
+            android:text="PostNr"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/bhg_poststed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bhg_gateadresse"
+            android:layout_alignStart="@id/bhg_telefonNr"
+            android:layout_toEndOf="@id/bhg_postnummer"
+            android:padding="16dp"
+            android:text="PostSted"
+            android:textSize="14sp" />
+
+
+        <ImageButton
+            android:id="@+id/ring_button"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bhg_poststed"
+            android:layout_alignStart="@id/bhg_postnummer"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:padding="16dp"
+            android:src="@drawable/ic_call_image" />
+
+        <TextView
+            android:id="@+id/bhg_telefonNr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bhg_postnummer"
+            android:layout_alignBottom="@id/ring_button"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:layout_toEndOf="@id/ring_button"
+            android:text="Telefonnummer"
+            android:textSize="14sp" />
+
+        <ImageButton
+            android:id="@+id/epost_button"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ring_button"
+            android:layout_margin="16dp"
+            android:padding="16dp"
+            android:src="@drawable/ic_email_image" />
+
+        <TextView
+            android:id="@+id/bhg_mailAdresse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ring_button"
+            android:layout_alignBottom="@id/epost_button"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:layout_toEndOf="@id/epost_button"
+            android:text="Mailadresse"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/bhg_nettside"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/epost_button"
+            android:padding="16dp"
+            android:text="Nettadresse"
+            android:textSize="14sp" />
+
+
+</RelativeLayout>
